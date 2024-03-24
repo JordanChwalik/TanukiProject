@@ -1,0 +1,15 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1711252054
+icon.svg::CompressedTexture2D::800013696899092510::1704329350::1704329360::1::::<><>::
+player.gd::GDScript::-1::1704864388::0::1::::<>Area2D<>::
+player.tscn::PackedScene::2473271731212955416::1704864388::0::1::::<><>::res://player.gd<>uid://crg158tojc5p0::::res://PlayerResources/pcqraEXoi.png<>uid://dj7efd35ebix3::::res://PlayerResources/Temp_Sprite.png<>uid://bgkxewhugtp3r::::res://PlayerResources/Rad-Circle-3.png<>uid://kkdssx6thco8::::res://PlayerResources/circle-clipart-12.png<>uid://ccxd2eemdj8xc::::res://PlayerResources/LcKekzEki.png<>uid://cgy1gflygdxau::::res://PlayerResources/b82a3155be62bb202981e3bf5649bb87.png<>uid://bbcq2k2yymft::::res://PlayerResources/173782_green-circle-png.png<>uid://uowtwy47pqph::::res://PlayerResources/373104.png<>uid://dlw3ulrr0op2a::::res://PlayerResources/circle-clip-art-36.png
+::res://PlayerResources/::1711251190
+173782_green-circle-png.png::CompressedTexture2D::72404662918387341::1704334710::1704334760::1::::<><>::
+373104.png::CompressedTexture2D::1434049059192547549::1704336160::1704336276::1::::<><>::
+b82a3155be62bb202981e3bf5649bb87.png::CompressedTexture2D::5245109132595400488::1704336224::1704336276::1::::<><>::
+circle-clip-art-36.png::CompressedTexture2D::7978492038187439154::1704338424::1704338440::1::::<><>::
+circle-clipart-12.png::CompressedTexture2D::722747491574479757::1704336174::1704336276::1::::<><>::
+LcKekzEki.png::CompressedTexture2D::4960930327241618316::1704334688::1704334760::1::::<><>::
+pcqraEXoi.png::CompressedTexture2D::5980071954656261679::1704332020::1704332168::1::::<><>::
+Rad-Circle-3.png::CompressedTexture2D::2829602324315967037::1704334592::1704334760::1::::<><>::
+Temp_Sprite.png::CompressedTexture2D::7857273731085129298::1704329810::1704329872::1::::<><>::
