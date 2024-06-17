@@ -1,2 +1,5 @@
 res://player.tscn
+res://playroom.tscn
+res://fire_ball.tscn
 res://player.gd
+res://Spell.gd

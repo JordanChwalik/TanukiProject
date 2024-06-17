@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://mfsji82p460s"]
+
+[ext_resource type="Script" path="res://Playroom.gd" id="1_xoujq"]
+[ext_resource type="Texture2D" uid="uid://bomod3h1ngmc" path="res://RoomResources/34385-Legend_of_Zelda_The_-_A_Link_to_the_Past_USA-10.jpg" id="2_ukwyp"]
+[ext_resource type="PackedScene" uid="uid://buvncw0gndu0w" path="res://player.tscn" id="3_5u52d"]
+
+[node name="Playroom" type="Node"]
+script = ExtResource("1_xoujq")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 4672.0
+offset_bottom = 3636.0
+texture = ExtResource("2_ukwyp")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("3_5u52d")]

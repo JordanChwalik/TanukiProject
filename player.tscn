@@ -1,21 +1,22 @@
-[gd_scene load_steps=13 format=3 uid="uid://bbicoohnnowxs"]
+[gd_scene load_steps=15 format=3 uid="uid://buvncw0gndu0w"]
 
-[ext_resource type="Script" path="res://player.gd" id="1_1uuaf"]
-[ext_resource type="Texture2D" uid="uid://crg158tojc5p0" path="res://PlayerResources/pcqraEXoi.png" id="2_h40o4"]
-[ext_resource type="Texture2D" uid="uid://dj7efd35ebix3" path="res://PlayerResources/Temp_Sprite.png" id="2_qh00a"]
-[ext_resource type="Texture2D" uid="uid://bgkxewhugtp3r" path="res://PlayerResources/Rad-Circle-3.png" id="3_mokrq"]
-[ext_resource type="Texture2D" uid="uid://kkdssx6thco8" path="res://PlayerResources/circle-clipart-12.png" id="4_flbvu"]
-[ext_resource type="Texture2D" uid="uid://ccxd2eemdj8xc" path="res://PlayerResources/LcKekzEki.png" id="4_fshn2"]
-[ext_resource type="Texture2D" uid="uid://cgy1gflygdxau" path="res://PlayerResources/b82a3155be62bb202981e3bf5649bb87.png" id="5_33ag6"]
-[ext_resource type="Texture2D" uid="uid://bbcq2k2yymft" path="res://PlayerResources/173782_green-circle-png.png" id="5_cyp6s"]
-[ext_resource type="Texture2D" uid="uid://uowtwy47pqph" path="res://PlayerResources/373104.png" id="6_xc5ut"]
-[ext_resource type="Texture2D" uid="uid://dlw3ulrr0op2a" path="res://PlayerResources/circle-clip-art-36.png" id="7_a3scw"]
+[ext_resource type="Script" path="res://player.gd" id="1_m4ajx"]
+[ext_resource type="Texture2D" uid="uid://dj7efd35ebix3" path="res://PlayerResources/Temp_Sprite.png" id="2_vrf77"]
+[ext_resource type="Texture2D" uid="uid://chlm2k0wrccr5" path="res://PlayerResources/Down.png" id="3_fuj6n"]
+[ext_resource type="Texture2D" uid="uid://ccvjjwy4gtdnj" path="res://PlayerResources/DownLeft.png" id="4_qp4wn"]
+[ext_resource type="Texture2D" uid="uid://dd7efgce7dv6d" path="res://PlayerResources/DownRight.png" id="5_52eir"]
+[ext_resource type="Texture2D" uid="uid://byijy7aikbajj" path="res://PlayerResources/Left.png" id="6_lqio3"]
+[ext_resource type="Texture2D" uid="uid://d3jwpnepygtrb" path="res://PlayerResources/Right.png" id="7_0b2gv"]
+[ext_resource type="Texture2D" uid="uid://c2o0p3bxtemmh" path="res://PlayerResources/Up.png" id="8_qc5p8"]
+[ext_resource type="Texture2D" uid="uid://bos78ey2t3tkv" path="res://PlayerResources/UpLeftTemp.png" id="9_s5u0h"]
+[ext_resource type="Texture2D" uid="uid://btpxdi7irppyl" path="res://PlayerResources/UpRightTemp.png" id="10_3tvm5"]
+[ext_resource type="Texture2D" uid="uid://c5rwo1bxdl8mb" path="res://PlayerResources/AttackBox.jpg" id="11_qxhi6"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_dpjj0"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_w6ou1"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_qh00a")
+"texture": ExtResource("2_vrf77")
 }],
 "loop": true,
 "name": &"default",
@@ -23,7 +24,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("2_h40o4")
+"texture": ExtResource("3_fuj6n")
 }],
 "loop": true,
 "name": &"walk_down",
@@ -31,7 +32,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("4_flbvu")
+"texture": ExtResource("4_qp4wn")
 }],
 "loop": true,
 "name": &"walk_down_left",
@@ -39,7 +40,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("5_33ag6")
+"texture": ExtResource("5_52eir")
 }],
 "loop": true,
 "name": &"walk_down_right",
@@ -47,7 +48,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("3_mokrq")
+"texture": ExtResource("6_lqio3")
 }],
 "loop": true,
 "name": &"walk_left",
@@ -55,7 +56,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("4_fshn2")
+"texture": ExtResource("7_0b2gv")
 }],
 "loop": true,
 "name": &"walk_right",
@@ -63,7 +64,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("6_xc5ut")
+"texture": ExtResource("8_qc5p8")
 }],
 "loop": true,
 "name": &"walk_up",
@@ -71,7 +72,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("7_a3scw")
+"texture": ExtResource("9_s5u0h")
 }],
 "loop": true,
 "name": &"walk_up_left",
@@ -79,25 +80,41 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("5_cyp6s")
+"texture": ExtResource("10_3tvm5")
 }],
 "loop": true,
 "name": &"walk_up_right",
 "speed": 5.0
 }]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_ai4lo"]
-radius = 147.567
+[sub_resource type="CircleShape2D" id="CircleShape2D_xdpe7"]
+radius = 325.576
 
-[node name="Player" type="Area2D"]
-position = Vector2(42, 33)
-scale = Vector2(0.25, 0.25)
-script = ExtResource("1_1uuaf")
-metadata/_edit_group_ = true
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1qbx3"]
+size = Vector2(1296, 492)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_m4ajx")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-sprite_frames = SubResource("SpriteFrames_dpjj0")
-animation = &"walk_down_left"
+sprite_frames = SubResource("SpriteFrames_w6ou1")
+animation = &"walk_up"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CircleShape2D_ai4lo")
+[node name="PlayerHitBox" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("CircleShape2D_xdpe7")
+
+[node name="LightAttackBox" type="CollisionShape2D" parent="."]
+position = Vector2(0, -243)
+shape = SubResource("RectangleShape2D_1qbx3")
+disabled = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+offset = Vector2(5, 0)
+zoom = Vector2(0.1, 0.1)
+
+[node name="AttackBox" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(2.75, -244.375)
+scale = Vector2(1.0429, 0.905598)
+texture = ExtResource("11_qxhi6")
