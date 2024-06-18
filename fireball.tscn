@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://c6ccsfbfpbo6x"]
+
+[ext_resource type="Script" path="res://Fireball.gd" id="1_h010j"]
+[ext_resource type="Texture2D" uid="uid://dc8uyun625k1k" path="res://SpellResources/fireball-removebg-preview.png" id="2_cj86f"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ir63y"]
+radius = 150.03
+
+[node name="Fireball" type="RigidBody2D"]
+gravity_scale = 0.0
+script = ExtResource("1_h010j")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_cj86f")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(77, 6)
+shape = SubResource("CircleShape2D_ir63y")

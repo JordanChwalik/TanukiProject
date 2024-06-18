@@ -8,6 +8,7 @@ var light_attack_cooldown = 0.3
 var heavy_attack_cooldown = 0.75
 var failed_magic_cooldown = 0.25
 var stored_spells = []
+var possible_spells = ["fireball"]
 
 func _physics_process(delta):
 	# Handle movement
@@ -25,7 +26,7 @@ func _physics_process(delta):
 	
 	if not currently_attacking:
 		play_direction_animation()
-	move_and_slide()
+	move_and_collide(velocity * delta)
 	
 	# Check for attack inputs
 	if Input.is_action_just_pressed("light_attack") and not currently_attacking:
@@ -115,3 +116,9 @@ func play_direction_animation():
 		$AttackBox.position = Vector2(-300, 300)
 		$AttackBox.rotation_degrees = -135
 	
+
+
+
+func _on_area_item_box_player_hit():
+	stored_spells.push_back(possible_spells[randi() % possible_spells.size()])
+	pass # Replace with function body.

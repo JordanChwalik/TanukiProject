@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://gkp151qfdidb"]
+
+[ext_resource type="Script" path="res://ItemBox.gd" id="1_dumog"]
+[ext_resource type="Texture2D" uid="uid://dhii2bw4hvx3v" path="res://SpellResources/spell item box.webp" id="2_qenfa"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y7tix"]
+size = Vector2(396, 392)
+
+[node name="ItemBox" type="RigidBody2D"]
+gravity_scale = 0.0
+freeze_mode = 1
+script = ExtResource("1_dumog")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_qenfa")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_y7tix")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://mfsji82p460s"]
+[gd_scene load_steps=5 format=3 uid="uid://mfsji82p460s"]
 
 [ext_resource type="Script" path="res://Playroom.gd" id="1_xoujq"]
 [ext_resource type="Texture2D" uid="uid://bomod3h1ngmc" path="res://RoomResources/34385-Legend_of_Zelda_The_-_A_Link_to_the_Past_USA-10.jpg" id="2_ukwyp"]
 [ext_resource type="PackedScene" uid="uid://buvncw0gndu0w" path="res://player.tscn" id="3_5u52d"]
+[ext_resource type="PackedScene" uid="uid://d4ahmkqhxqh7e" path="res://area_item_box.tscn" id="4_o10je"]
 
 [node name="Playroom" type="Node"]
 script = ExtResource("1_xoujq")
@@ -13,3 +14,8 @@ offset_bottom = 3636.0
 texture = ExtResource("2_ukwyp")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("3_5u52d")]
+
+[node name="AreaItemBox" parent="." instance=ExtResource("4_o10je")]
+position = Vector2(2208, -384)
+
+[connection signal="player_hit" from="AreaItemBox" to="CharacterBody2D" method="_on_area_item_box_player_hit"]

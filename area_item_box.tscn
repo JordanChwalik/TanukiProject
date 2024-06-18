@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://d4ahmkqhxqh7e"]
+
+[ext_resource type="Script" path="res://ItemBox.gd" id="1_dwpok"]
+[ext_resource type="Texture2D" uid="uid://dhii2bw4hvx3v" path="res://SpellResources/spell item box.webp" id="1_sai5h"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_akab5"]
+radius = 218.186
+
+[node name="AreaItemBox" type="Area2D"]
+script = ExtResource("1_dwpok")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_sai5h")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_akab5")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
