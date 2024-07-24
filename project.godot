@@ -11,8 +11,8 @@ config_version=5
 [application]
 
 config/name="Tanuki"
-run/main_scene="res://playroom.tscn"
-config/features=PackedStringArray("4.1", "Forward Plus")
+run/main_scene="res://Scenes/playroom.tscn"
+config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]

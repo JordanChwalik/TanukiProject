@@ -122,3 +122,8 @@ func play_direction_animation():
 func _on_area_item_box_player_hit():
 	stored_spells.push_back(possible_spells[randi() % possible_spells.size()])
 	pass # Replace with function body.
+
+
+func _on_node_2d_collect_spell():
+	print("Collision Detected")
+	pass # Replace with function body.

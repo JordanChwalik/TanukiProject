@@ -1,11 +1,4 @@
-res://player.tscn
 res://playroom.tscn
-res://spell.tscn
-res://line_spell.tscn
-res://Fireball.gd
-res://fireball.tscn
-res://ItemBox.gd
-res://item_box.tscn
-res://Playroom.gd
-res://player.gd
-res://area_item_box.tscn
+res://Scenes/ItemBox.tscn
+res://Scenes/player.tscn
+res://Scenes/playroom.tscn
