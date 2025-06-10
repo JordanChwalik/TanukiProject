@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://cpq1il5yiab4x"]
+[gd_scene load_steps=13 format=3 uid="uid://cpq1il5yiab4x"]
 
 [ext_resource type="Texture2D" uid="uid://dj7efd35ebix3" path="res://PlayerResources/Temp_Sprite.png" id="1_h8xij"]
 [ext_resource type="Texture2D" uid="uid://chlm2k0wrccr5" path="res://PlayerResources/Down.png" id="2_on402"]
@@ -9,6 +9,9 @@
 [ext_resource type="Texture2D" uid="uid://c2o0p3bxtemmh" path="res://PlayerResources/Up.png" id="7_a7ixy"]
 [ext_resource type="Texture2D" uid="uid://bos78ey2t3tkv" path="res://PlayerResources/UpLeftTemp.png" id="8_g0vps"]
 [ext_resource type="Texture2D" uid="uid://btpxdi7irppyl" path="res://PlayerResources/UpRightTemp.png" id="9_ayeke"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_4n8mj"]
+radius = 280.744
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_lj5d8"]
 animations = [{
@@ -85,10 +88,25 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="RigidBody2D" type="RigidBody2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fsvwo"]
+size = Vector2(939, 343)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="RigidBody2D" type="RigidBody2D"]
+position = Vector2(521, 444)
+gravity_scale = 0.0
+metadata/_edit_group_ = true
+
+[node name="HitBox" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_4n8mj")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_lj5d8")
 animation = &"walk_up"
+
+[node name="LightAttackBox" type="RigidBody2D" parent="."]
+gravity_scale = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LightAttackBox"]
+position = Vector2(0, -181.5)
+shape = SubResource("RectangleShape2D_fsvwo")
+disabled = true

@@ -1,4 +1,4 @@
-res://playroom.tscn
-res://Scenes/ItemBox.tscn
+res://rigid_body_2d.tscn
 res://Scenes/player.tscn
 res://Scenes/playroom.tscn
+res://Scenes/ItemBox.tscn

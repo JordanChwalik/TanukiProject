@@ -1,33 +1,34 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1721861060
-icon.svg::CompressedTexture2D::800013696899092510::1718681354::1718681354::1::::<><>::
-Spell.gd::GDScript::-1::1718681354::0::1::::<>Node2D<>::
-::res://PlayerResources/::1718681354
-AttackBox.jpg::CompressedTexture2D::6914963241503123397::1718681354::1718681354::1::::<><>::
-Down.png::CompressedTexture2D::5287648813371706504::1718681354::1718681354::1::::<><>::
-DownLeft.png::CompressedTexture2D::4957134706492969575::1718681354::1718681354::1::::<><>::
-DownRight.png::CompressedTexture2D::7436140785518260877::1718681354::1718681354::1::::<><>::
-Left.png::CompressedTexture2D::4088058946151063139::1718681354::1718681354::1::::<><>::
-Right.png::CompressedTexture2D::9144492323176814879::1718681354::1718681354::1::::<><>::
-Temp_Sprite.png::CompressedTexture2D::7857273731085129298::1718681354::1718681354::1::::<><>::
-Up.png::CompressedTexture2D::6698387619166833471::1718681354::1718681354::1::::<><>::
-UpLeftTemp.png::CompressedTexture2D::3408225417587995045::1718681354::1718681354::1::::<><>::
-UpRightTemp.png::CompressedTexture2D::3752376697349307647::1718681354::1718681354::1::::<><>::
-::res://RoomResources/::1718681354
-34385-Legend_of_Zelda_The_-_A_Link_to_the_Past_USA-10.jpg::CompressedTexture2D::99843938400620442::1718681354::1718681354::1::::<><>::
-::res://Scenes/::1721861059
-area_item_box.tscn::PackedScene::9195185515358260144::1721861054::0::1::::<><>::res://Scripts/ItemBox.gd<>uid://dhii2bw4hvx3v::::res://SpellResources/spell item box.webp
-fireball.tscn::PackedScene::6952978118357980485::1721861052::0::1::::<><>::res://Scripts/Fireball.gd<>uid://dc8uyun625k1k::::res://SpellResources/fireball-removebg-preview.png
-ItemBox.tscn::PackedScene::2001541995733750442::1721861054::0::1::::<><>::res://Scripts/ItemBox.gd<>uid://dhii2bw4hvx3v::::res://SpellResources/spell item box.webp
-line_spell.tscn::PackedScene::3209703439671606321::1721861038::0::1::::<><>::uid://dbu0nexsbwbie::::res://Scenes/spell.tscn
-player.tscn::PackedScene::3834343576206718240::1721861057::0::1::::<><>::res://Scripts/player.gd<>uid://dj7efd35ebix3::::res://PlayerResources/Temp_Sprite.png<>uid://chlm2k0wrccr5::::res://PlayerResources/Down.png<>uid://ccvjjwy4gtdnj::::res://PlayerResources/DownLeft.png<>uid://dd7efgce7dv6d::::res://PlayerResources/DownRight.png<>uid://byijy7aikbajj::::res://PlayerResources/Left.png<>uid://d3jwpnepygtrb::::res://PlayerResources/Right.png<>uid://c2o0p3bxtemmh::::res://PlayerResources/Up.png<>uid://bos78ey2t3tkv::::res://PlayerResources/UpLeftTemp.png<>uid://btpxdi7irppyl::::res://PlayerResources/UpRightTemp.png<>uid://c5rwo1bxdl8mb::::res://PlayerResources/AttackBox.jpg
-playroom.tscn::PackedScene::853697462854952792::1721861059::0::1::::<><>::res://Scripts/Playroom.gd<>uid://bomod3h1ngmc::::res://RoomResources/34385-Legend_of_Zelda_The_-_A_Link_to_the_Past_USA-10.jpg<>uid://buvncw0gndu0w::::res://Scenes/player.tscn<>uid://3rtdsrcyqaqk::::res://Scenes/ItemBox.tscn
-spell.tscn::PackedScene::7272279836382398552::1719776083::0::1::::<><>::res://Spell.gd
-::res://Scripts/::1721861059
-Fireball.gd::GDScript::-1::1719774923::0::1::::<>RigidBody2D<>::
-ItemBox.gd::GDScript::-1::1719776919::0::1::::<>Node2D<>::
-player.gd::GDScript::-1::1719776411::0::1::::<>CharacterBody2D<>::
-Playroom.gd::GDScript::-1::1719774923::0::1::::<>Node<>::
-::res://SpellResources/::1719774923
-fireball-removebg-preview.png::CompressedTexture2D::7369022475143618406::1718681354::1718681354::1::::<><>::
-spell item box.webp::CompressedTexture2D::7667633018792453857::1719774923::1719774923::1::::<><>::
+::res://::1721862027
+icon.svg::CompressedTexture2D::800013696899092510::1721861989::1721861989::1::::<><>::
+rigid_body_2d.tscn::PackedScene::5860297619386938613::1721861989::0::1::::<><>::uid://dj7efd35ebix3::::res://PlayerResources/Temp_Sprite.png<>uid://chlm2k0wrccr5::::res://PlayerResources/Down.png<>uid://ccvjjwy4gtdnj::::res://PlayerResources/DownLeft.png<>uid://dd7efgce7dv6d::::res://PlayerResources/DownRight.png<>uid://byijy7aikbajj::::res://PlayerResources/Left.png<>uid://d3jwpnepygtrb::::res://PlayerResources/Right.png<>uid://c2o0p3bxtemmh::::res://PlayerResources/Up.png<>uid://bos78ey2t3tkv::::res://PlayerResources/UpLeftTemp.png<>uid://btpxdi7irppyl::::res://PlayerResources/UpRightTemp.png
+::res://PlayerResources/::1721861989
+AttackBox.jpg::CompressedTexture2D::6914963241503123397::1721861989::1721861989::1::::<><>::
+Down.png::CompressedTexture2D::5287648813371706504::1721861989::1721861989::1::::<><>::
+DownLeft.png::CompressedTexture2D::4957134706492969575::1721861989::1721861989::1::::<><>::
+DownRight.png::CompressedTexture2D::7436140785518260877::1721861989::1721861989::1::::<><>::
+Left.png::CompressedTexture2D::4088058946151063139::1721861989::1721861989::1::::<><>::
+Right.png::CompressedTexture2D::9144492323176814879::1721861989::1721861989::1::::<><>::
+Temp_Sprite.png::CompressedTexture2D::7857273731085129298::1721861989::1721861989::1::::<><>::
+Up.png::CompressedTexture2D::6698387619166833471::1721861989::1721861989::1::::<><>::
+UpLeftTemp.png::CompressedTexture2D::3408225417587995045::1721861989::1721861989::1::::<><>::
+UpRightTemp.png::CompressedTexture2D::3752376697349307647::1721861989::1721861989::1::::<><>::
+::res://RoomResources/::1721861989
+34385-Legend_of_Zelda_The_-_A_Link_to_the_Past_USA-10.jpg::CompressedTexture2D::99843938400620442::1721861989::1721861989::1::::<><>::
+::res://Scenes/::1721861989
+area_item_box.tscn::PackedScene::9195185515358260144::1721861989::0::1::::<><>::res://Scripts/ItemBox.gd<>uid://dhii2bw4hvx3v::::res://SpellResources/spell item box.webp
+fireball.tscn::PackedScene::6952978118357980485::1721861989::0::1::::<><>::res://Scripts/Fireball.gd<>uid://dc8uyun625k1k::::res://SpellResources/fireball-removebg-preview.png
+ItemBox.tscn::PackedScene::2001541995733750442::1721861989::0::1::::<><>::res://Scripts/ItemBox.gd<>uid://dhii2bw4hvx3v::::res://SpellResources/spell item box.webp
+line_spell.tscn::PackedScene::3209703439671606321::1721861989::0::1::::<><>::uid://dbu0nexsbwbie::::res://Scenes/spell.tscn
+player.tscn::PackedScene::3834343576206718240::1721861989::0::1::::<><>::res://Scripts/player.gd<>uid://dj7efd35ebix3::::res://PlayerResources/Temp_Sprite.png<>uid://chlm2k0wrccr5::::res://PlayerResources/Down.png<>uid://ccvjjwy4gtdnj::::res://PlayerResources/DownLeft.png<>uid://dd7efgce7dv6d::::res://PlayerResources/DownRight.png<>uid://byijy7aikbajj::::res://PlayerResources/Left.png<>uid://d3jwpnepygtrb::::res://PlayerResources/Right.png<>uid://c2o0p3bxtemmh::::res://PlayerResources/Up.png<>uid://bos78ey2t3tkv::::res://PlayerResources/UpLeftTemp.png<>uid://btpxdi7irppyl::::res://PlayerResources/UpRightTemp.png<>uid://c5rwo1bxdl8mb::::res://PlayerResources/AttackBox.jpg
+playroom.tscn::PackedScene::853697462854952792::1721861989::0::1::::<><>::res://Scripts/Playroom.gd<>uid://bomod3h1ngmc::::res://RoomResources/34385-Legend_of_Zelda_The_-_A_Link_to_the_Past_USA-10.jpg<>uid://buvncw0gndu0w::::res://Scenes/player.tscn<>uid://3rtdsrcyqaqk::::res://Scenes/ItemBox.tscn
+spell.tscn::PackedScene::7272279836382398552::1721861989::0::1::::<><>::res://Scripts/Spell.gd
+::res://Scripts/::1721861989
+Fireball.gd::GDScript::-1::1721861989::0::1::::<>RigidBody2D<>::
+ItemBox.gd::GDScript::-1::1721861989::0::1::::<>Node2D<>::
+player.gd::GDScript::-1::1721861989::0::1::::<>CharacterBody2D<>::
+Playroom.gd::GDScript::-1::1721861989::0::1::::<>Node<>::
+Spell.gd::GDScript::-1::1721861989::0::1::::<>Node2D<>::
+::res://SpellResources/::1721861989
+fireball-removebg-preview.png::CompressedTexture2D::7369022475143618406::1721861989::1721861989::1::::<><>::
+spell item box.webp::CompressedTexture2D::7667633018792453857::1721861989::1721861989::1::::<><>::
